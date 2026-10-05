@@ -1,0 +1,55 @@
+object Form1: TForm1
+  Left = 339
+  Height = 240
+  Top = 233
+  Width = 320
+  Caption = '1-100'
+  ClientHeight = 240
+  ClientWidth = 320
+  Font.CharSet = ANSI_CHARSET
+  Font.Color = clNavy
+  Font.Name = 'Showcard Gothic'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  OnCreate = FormCreate
+  LCLVersion = '3.6.0.0'
+  object Label1: TLabel
+    Left = 32
+    Height = 15
+    Top = 72
+    Width = 257
+    Caption = 'Ho pensato un numero da 1 a 100. Quale?'
+  end
+  object EditNumero: TEdit
+    Left = 24
+    Height = 23
+    Top = 136
+    Width = 80
+    TabOrder = 0
+  end
+  object ButtonProva: TButton
+    Left = 224
+    Height = 25
+    Top = 134
+    Width = 75
+    Caption = 'Prova'
+    TabOrder = 1
+    OnClick = ButtonProvaClick
+  end
+  object ButtonNuova: TButton
+    Left = 112
+    Height = 25
+    Top = 136
+    Width = 99
+    Caption = 'Nuova partita'
+    TabOrder = 2
+    OnClick = ButtonNuovaClick
+  end
+  object LabelRisposta: TLabel
+    Left = 136
+    Height = 15
+    Top = 184
+    Width = 92
+    Caption = 'LabelRisposta'
+  end
+end
